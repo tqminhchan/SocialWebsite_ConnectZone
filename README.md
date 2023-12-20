@@ -1,3 +1,5 @@
 - đây là project phục vụ nghiên cứu môn học GR2 của đại học bách khoa Hà Nội
+- sinh viên: Trần Quang Minh, MSSV: 20205102
+- giảng viên hướng dẫn: TS. Đỗ Bá Lâm
 - direct to Client and Server folder, open terminal, run: "npm install" to install node modules
 - then run: "yarn dev" in both Client and Server
