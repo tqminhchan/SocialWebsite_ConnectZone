@@ -1,0 +1,2 @@
+- direct to Client and Server folder, open terminal, run: "npm install" to install node modules
+- then run: "yarn dev" in both Client and Server
