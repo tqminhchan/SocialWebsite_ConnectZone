@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;700;800&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+body{
+  font-family: 'Wix Madefor Display', sans-serif;
+  
+}
+svg, button {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+textarea {
+  resize: none;
+}
+
+video{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 16px;
+}
+.player-wrapper {
+  width: auto; 
+  height: auto; 
+}
+
+.react-player {
+  padding-top: 56.25%; 
+  position: relative;
+}
+.react-player>div {
+  position: absolute; 
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: auto;
+}
+
+::-webkit-scrollbar-track {
+  background: #ccc;
+  border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(43, 41, 79, 0.85);
+  border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(74, 74, 132, 0.86);
+  cursor: pointer;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: auto;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb{
+  background: #888;
+  border-radius: 12px;
+}
+/* .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: red;
+  cursor: pointer;
+} */
+
